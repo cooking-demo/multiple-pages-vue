@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "entry": "404",
+      "title": "找不到页面",
+      "cdn": {
+        "js": []
+      }
+    },
+    {
+      "entry": "home",
+      "title": "首页",
+      "cdn": {}
+    },
+    {
+      "entry": "admin",
+      "title": "后台",
+      "cdn": {}
+    }
+  ],
+  "basePath": "./src/pages/",
+  "cdn": {
+    "js": [
+      "//cdn.jsdelivr.net/vue/2.0.0-rc.7/vue.min.js",
+      "//cdn.jsdelivr.net/vuex/2.0.0-rc.5/vuex.min.js"
+    ],
+    "css": []
+  },
+  "externals": {
+    "vue": "Vue",
+    "vuex": "Vuex"
+  }
+}

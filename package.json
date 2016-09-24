@@ -1,0 +1,22 @@
+{
+  "name": "multiple-page",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "private": true,
+  "keywords": [
+  ],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.0.0-rc",
+    "babel-polyfill": "*"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*",
+    "cooking-buble": "*"
+  }
+}
