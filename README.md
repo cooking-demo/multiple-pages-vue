@@ -4,7 +4,7 @@
 ## Development
 
 ```shell
-npm i cooking -g
+npm i cooking-cli -g
 
 npm install
 npm run dev
